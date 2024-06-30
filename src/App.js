@@ -50,6 +50,9 @@ function App() {
           <AppSearch value={searchText} onValueChange={setSearchText} />
           <div className="app-grid">{mountainsElements}</div>
           </div>
+          <div>
+             <h1> H1</h1>
+          </div>
       </div>
       {mountainPost}
     </div>
